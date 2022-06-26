@@ -1,10 +1,11 @@
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class Solution {
   public int scheduleCourse(int[][] courses) {
     // sort by LastDay decrease
-    Arrays.sort(courses, (a,b) -> a[1]-b[1]);
+    Arrays.sort(courses, Comparator.comparingInt(a -> a[1]));
     PriorityQueue<Integer> queue = new PriorityQueue<>((a,b)-> b-a);
     int time = 0;
     for (int[] course : courses) {

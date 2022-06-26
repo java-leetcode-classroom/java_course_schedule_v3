@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SolutionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-26T09:23:47" hostname="yuanyu-ubuntu" time="0.035">
+<testsuite name="SolutionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-26T09:39:10" hostname="yuanyu-ubuntu" time="0.031">
   <properties/>
-  <testcase name="scheduleCourseExample1()" classname="SolutionTest" time="0.029"/>
+  <testcase name="scheduleCourseExample1()" classname="SolutionTest" time="0.028"/>
   <testcase name="scheduleCourseExample2()" classname="SolutionTest" time="0.001"/>
-  <testcase name="scheduleCourseExample3()" classname="SolutionTest" time="0.002"/>
+  <testcase name="scheduleCourseExample3()" classname="SolutionTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
